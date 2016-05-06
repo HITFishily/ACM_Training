@@ -1,0 +1,13 @@
+Description
+Alice lives in village A and Bob lives in village B. They love jogging very much. Every morning they start jogging at the same time, head for the other's village and then, when arrive, immediately turn round, and jog back to their own villages.
+This morning, Alice noticed when she met Bob for the first time, they were m meters away from A, and when she arrived at B, turned round, jogged back and met Bob from the oposite for the second time, they were n meters away from B.
+Alice told it to Bob and asked him to calculate the distance from A to B. Bob was puzzled. Can you help him?
+Input
+Multiple test cases. Two integer m, n in a line for each case. A line containing "0 0" indicates end of input.
+Output
+One integer in a line for each test case : distance from A to B.
+Sample Input
+400 200
+0 0
+Sample Output
+1000

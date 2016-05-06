@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    while(a != 0 && b != 0){
+        printf("%d\n",a*3 - b);
+        scanf("%d %d",&a,&b);
+    }
+}
