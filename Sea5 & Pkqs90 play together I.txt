@@ -1,0 +1,34 @@
+Sea5 & Pkqs90 play together I
+Source : Sea5 & c_on
+Time limit : 1 sec		Memory limit : 256 M
+Submitted : 22, Accepted : 19
+Sea5 and Pkqs90 always play games together. One day, Sea5 shows Pkqs90 how to play The Binding of Isaac...
+
+Ok, now I will introduce this game to you...
+Isaac is trapped in a maze which has many common rooms…
+Like this…
+There are 9 common rooms on the map…
+
+And there is only one secret room, we can’t find it from the map directly.
+The secret room always has many special items in it, Pkqs90 wants to find it but he doesn’t know where it is. Sea5 tells him that the secret room is located in an empty place which is adjacent to the most common rooms. Two rooms are called adjacent only if they share an edge. But there will be many possible places.
+
+Now Pkqs90 want you to help him to find how many places may be the secret room.
+Input
+The input consists of T test cases. The number of them (T) is given on the first line of the input file. Each test case begins with a line containing two integers N and M (N<=100, M<=100) indicating the number of rows and columns. N lines follow, “#” represent a common room. “.” represent an empty place.
+Common rooms maybe not connect. Don’t worry, Pkqs90 can teleport.
+Output
+The number of places which may be the secret room.
+Sample Input:
+2
+5 3
+..#
+.##
+##.
+.##
+##.
+1 1
+#
+Sample Output
+2
+4
+Notice: Not every empty place has been shown.
